@@ -1,0 +1,329 @@
+.bgimg{
+    background-image: url(food.jpg);
+    background-size: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+#loginbutton{
+    background-color: transparent;
+    border: 0px;
+    color: white;
+    font-size: medium;
+    margin-left: 950px;
+}
+
+#newaccount{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font-size: medium;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#circle{
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    border: 1px solid white;
+    background-color: white;
+    margin-left: 600px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#logo{
+    font-size: 45px;
+    color: red;
+    position: absolute;
+    left: 23px;
+    top: -35px;
+}
+
+.text1{
+    font-size: 36px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.align{
+    display: inline-flex;
+    gap: 15px;
+}
+
+#dropdown{
+    border: 1px solid white;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 200px;
+    margin-left: 345px;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+
+#search{
+    background-image: url(./search\ icon.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+input{
+    width: 390px;
+    padding-left: 40px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 34px;
+    border: 1px solid white;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+
+.titleAlignment{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+#title{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(51, 109, 167);
+}
+#subtitle{
+    font-weight: bold;
+    color: grey;
+    margin-top: 10px;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns:370px 370px 370px;
+    grid-gap: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.child1,.child2,.child3,.child4,.child5,.child6 {
+    border: 2px solid white;
+    height: 150px;
+    position: relative;
+}
+
+.head{
+    position: absolute;
+    left: 170px;
+    top:30px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: rgb(1, 102, 102);
+}
+
+.subText{
+    position: absolute; 
+    top: 60px; 
+    left: 170px;
+    font-size: small;
+    color: rgb(141, 189, 189);
+}
+
+@media all and (max-width:1115px) and (min-width:150px){
+    
+
+    #loginbutton{
+        margin-left: 750px;
+    }
+
+    #circle{
+        margin-left: 500px;
+    }
+
+    #dropdown{
+        margin-left: 220px;
+    }
+
+    .parent{
+        display: grid;
+        grid-template-columns:370px 370px;
+        grid-gap: 20px;
+        margin-left: 150px;
+        margin-top: 20px;
+    }
+    
+    .titleAlignment{
+        margin-left: 150px;
+    }
+}
+
+@media all and (max-width:1017px) and (min-width:150px){
+    #loginbutton{
+        margin-left: 650px;
+    }
+    #circle{
+        margin-left: 450px;
+    }
+    #dropdown{
+        width: 625px;
+        margin-left: 180px;
+        position: relative;
+        height: 34px;
+    }
+    .inputwithicon{
+        position: absolute;
+        top: 300px;
+        left: 180px;
+    }
+    input{
+        width: 589px;
+    }
+    .parent{
+        display: grid;
+        grid-template-columns:370px 370px;
+        grid-gap: 20px;
+        margin-left: 112px;
+        margin-top: 20px;
+    }
+    .titleAlignment{
+        margin-left: 112px;
+    }
+}
+
+@media all and (max-width:917px) and (min-width:150px){
+    #loginbutton{
+        margin-left: 550px;
+    }
+    #circle{
+        margin-left: 400px;
+    }
+    #dropdown{
+        width: 625px;
+        margin-left: 130px;
+        position: relative;
+        height: 34px;
+    }
+    .inputwithicon{
+        position: absolute;
+        top: 300px;
+        left: 130px;
+    }
+    input{
+        width: 589px;
+    }
+    .parent{
+        display: grid;
+        grid-template-columns:370px 370px;
+        grid-gap: 20px;
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+    .titleAlignment{
+        margin-left: 60px;
+    }
+}
+
+@media all and (max-width:817px) and (min-width:150px){
+    #loginbutton{
+        margin-left: 450px;
+    }
+    #circle{
+        margin-left: 350px;
+    }
+    #dropdown{
+        width: 625px;
+        margin-left: 80px;
+        position: relative;
+        height: 34px;
+    }
+    .inputwithicon{
+        position: absolute;
+        top: 300px;
+        left: 80px;
+    }
+    input{
+        width: 589px;
+    }
+    .parent{
+        display: grid;
+        grid-template-columns:370px 370px ;
+        grid-gap: 20px;
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+    .titleAlignment{
+        margin-left: 5px;
+    }
+}
+
+@media all and (max-width:717px) and (min-width:150px){
+    #loginbutton{
+        margin-left: 350px;
+    }
+    #circle{
+        margin-left: 280px;
+    }
+    #dropdown{
+        width: 625px;
+        margin-left: 30px;
+        position: relative;
+        height: 34px;
+    }
+    .inputwithicon{
+        position: absolute;
+        top: 300px;
+        left: 30px;
+    }
+    input{
+        width: 589px;
+    }
+    .parent{
+        display: grid;
+        grid-template-columns:370px 370px ;
+        grid-gap: 20px;
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+    .titleAlignment{
+        margin-left: 5px;
+    }
+}
+
+@media all and (max-width:617px) and (min-width:150px){
+    #loginbutton{
+        margin-left: 250px;
+    }
+    #circle{
+        margin-left: 280px;
+    }
+    .text1{
+        position: relative;
+        top: -20px;
+    }
+    #dropdown{
+        width: 550px;
+        margin-left: 10px;
+        position: relative;
+        height: 34px;
+        top: -20px;
+    }
+    .inputwithicon{
+        
+        position: absolute;
+        top: 330px;
+        left: 10px;
+    }
+    input{
+        width: 520px;
+    }
+    .parent{
+        display: grid;
+        grid-template-columns:370px ;
+        grid-gap: 20px;
+        margin-left: 95px;
+        margin-top: 20px;
+    }
+    .titleAlignment{
+        margin-left: 95px;
+    }
+}
